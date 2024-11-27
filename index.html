@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>s1b34's Color Picker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Added GIF -->
+    <div class="gif-container">
+      <img src="https://custom-doodle.com/wp-content/uploads/doodle/bongo-cat-pixel/bongo-cat-pixel-doodle.gif" alt="Colorful GIF" />
+    </div>
+    <h1>Color Picker</h1>
+    <div class="color-display">
+      <div class="color-box"></div>
+      <div class="color-values">
+        <p><strong>HEX:</strong> <span id="hex-value">#ffffff</span></p>
+        <p><strong>RGB:</strong> <span id="rgb-value">rgb(255, 255, 255)</span></p>
+        <p><strong>HSL:</strong> <span id="hsl-value">hsl(0, 0%, 100%)</span></p>
+      </div>
+    </div>
+    <div class="controls">
+      <input type="color" id="color-picker" />
+      <button id="random-color-btn">Random Color</button>
+      <button id="copy-color-btn">Copy HEX</button>
+    </div>
+  </div>
+</body>
+</html>
